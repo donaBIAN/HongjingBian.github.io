@@ -4147,7 +4147,22 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 @media screen and (max-width: 480px) {
 
 	#footer {
+		
+		-moz-flex-basis: 50%;
+		-webkit-flex-basis: 50%;
+		-ms-flex-basis: 50%;
+		flex-basis: 50%;
+		-moz-flex-grow: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-grow: 1;
+		flex-grow: 1;
+		-moz-flex-shrink: 1;
+		-webkit-flex-shrink: 1;
+		-ms-flex-shrink: 1;
+		flex-shrink: 1;
 		width: 100%;
+		text-align: center;
+		position: relative;
 	}
 
 }
