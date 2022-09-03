@@ -4038,14 +4038,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 
 
-#footer>section.split {
-	display: -moz-flex;
-	display: -webkit-flex;
-	display: -ms-flex;
-	display: flex;
-	position: relative;
-	text-align: center;
-}
+
 
 
 
