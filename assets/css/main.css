@@ -94,7 +94,17 @@ video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
 }
+
+.tag {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+
 
 article,
 aside,
@@ -4101,7 +4111,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	}
 
 
-	
+
 
 
 	#footer form label,
@@ -4154,6 +4164,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 		text-align: center;
 		position: relative;
 	}
+
 	#footer>section.split.contact {
 		position: relative;
 		text-align: center;
