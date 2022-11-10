@@ -3820,7 +3820,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	}
 
 	#main>.posts>article .image {
-		max-width: 25rem;
+		max-width: 20rem;
 		margin-left: auto;
 		margin-right: auto;
 	}
